@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "freee クイック検索",
+  "version": "1.0.0",
+  "description": "テキスト選択→右クリックでfreeeの各画面へ瞬時に検索ジャンプ",
+  "permissions": ["contextMenus", "tabs", "notifications", "storage"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" }
+  },
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" }
+}
